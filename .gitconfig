@@ -1,0 +1,29 @@
+[user]
+	name = Will Padover
+	email = will.padover@gmail.com
+[credential]
+	helper = cache --timeout=86400
+[color]
+	ui = true
+  branch = auto
+  diff = auto
+  status = auto
+[core]
+  editor = vim
+    ignorecase = false
+[color "branch"]
+  current = cyan bold
+  local = yellow
+  remote = magenta
+[color "diff"]
+  new = green bold
+  old = red bold
+  frag = cyan bold
+  meta = white bold
+  whitespace = red reverse
+[color "status"]
+  added = green bold
+  changed = cyan bold
+  untracked = white bold
+[branch]
+  autosetuprebase = always
