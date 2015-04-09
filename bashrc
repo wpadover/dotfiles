@@ -18,8 +18,6 @@ export PS1='\[${GREEN}\]\u${BLUE}@\H \[${YELLOW}\]\w\[${PINK}\]$(__git_ps1 " (%s
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-export PS1='\[\e[1;32m\]\u\[\e[0;39m\]|\[\e[1;33m\]\w\[\e[0;39m\]\[\e[1;35m\]$(__git_ps1 " (%s)")\[\e[0;39m\] \[\e[1;37m\]\[\e[0;39m\]$ '
-
 alias ls='ls -FG'
 alias less='less -R' # Less with colors
 alias grep='grep --colour=auto'
