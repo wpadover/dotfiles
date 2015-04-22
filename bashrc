@@ -9,12 +9,12 @@ fi
 alias js='python -mjson.tool'
 
 # Colors and Pretty Command Line
-D=$'\e[37;40m'
+D=$'\e[0;37m'
 PINK=$'\e[1;35m'
 GREEN=$'\e[1;32m'
-BLUE=$'\e[36;40m'
+BLUE=$'\e[1;36m'
 YELLOW=$'\e[1;33m'
-export PS1='\[${GREEN}\]\u${BLUE}@\H \[${YELLOW}\]\w\[${PINK}\]$(__git_ps1 " (%s)")\[${PINK}\] \[${D}\]$ '
+export PS1='\[${GREEN}\]\u\[${BLUE}\]@\H \[${YELLOW}\]\w\[${PINK}\]$(__git_ps1 " (%s)")\[${PINK}\] \[${D}\]$ '
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
